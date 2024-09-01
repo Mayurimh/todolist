@@ -83,7 +83,7 @@
         const SubmitBtn=document.getElementById("TaskAdd");
         const MainList=document.querySelector(".todoList-Elem")
        
-        
+        const ToDoListData=[];
         const gettodolistFromLocal=()=>{
            return JSON.parse(localStorage.getItem("ToDoListData"));
         };
